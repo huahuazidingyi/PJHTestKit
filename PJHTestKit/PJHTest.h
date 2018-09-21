@@ -10,4 +10,7 @@
 
 @interface PJHTest : NSObject
 
+-(void)test0;
+-(void)test;
+
 @end

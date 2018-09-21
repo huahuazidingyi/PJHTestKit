@@ -21,8 +21,8 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     PJHTest *test = [PJHTest new];
-    
     [test test];
+    [test test0];
 }
 
 - (void)didReceiveMemoryWarning

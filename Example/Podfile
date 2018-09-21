@@ -1,11 +1,10 @@
+source 'https://github.com/huahuazidingyi/PJHSpec.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
 
 target 'PJHTestKit_Example' do
-  pod 'PJHTestKit', :path => '../'
 
-  target 'PJHTestKit_Tests' do
-    inherit! :search_paths
+  pod 'PJHTestKit' ,:path => "../"
 
-    
-  end
 end

@@ -10,13 +10,4 @@
 
 @implementation PJHTest
 
--(void)test0
-{
-    NSLog(@"test0");
-}
--(void)test
-{
-    NSLog(@"test");
-}
-
 @end
