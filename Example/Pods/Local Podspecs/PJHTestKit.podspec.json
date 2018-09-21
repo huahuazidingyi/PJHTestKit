@@ -1,6 +1,6 @@
 {
   "name": "PJHTestKit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of PJHTestKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/huahuazidingyi/PJHTestKit",
@@ -13,10 +13,19 @@
   },
   "source": {
     "git": "https://github.com/huahuazidingyi/PJHTestKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PJHTestKit/**/*"
+  "source_files": "PJHTestKit/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
 }

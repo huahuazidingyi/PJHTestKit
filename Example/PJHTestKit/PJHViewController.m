@@ -7,7 +7,8 @@
 //
 
 #import "PJHViewController.h"
-
+#import <PJHTestKit/PJHTest.h>
+#import <AFNetworking/AFNetworking.h>
 @interface PJHViewController ()
 
 @end
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    PJHTest *test = [PJHTest new];
+    
+    [test test];
 }
 
 - (void)didReceiveMemoryWarning
