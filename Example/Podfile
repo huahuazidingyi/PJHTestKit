@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PJHTestKit_Example' do
+  pod 'PJHTestKit', :path => '../'
+
+  target 'PJHTestKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
