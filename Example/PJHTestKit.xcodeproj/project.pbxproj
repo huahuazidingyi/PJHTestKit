@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		37C2D5E037FED21916F625E4 /* PJHTestKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PJHTestKit.podspec; path = ../PJHTestKit.podspec; sourceTree = "<group>"; };
+		37C2D5E037FED21916F625E4 /* PJHTestKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PJHTestKit.podspec; path = ../PJHTestKit.podspec; sourceTree = "<group>"; };
 		5596F4D57A2E1AB7777E7224 /* Pods_PJHTestKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PJHTestKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A684CCB4F967E9A9CC72082 /* Pods-PJHTestKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJHTestKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PJHTestKit_Tests/Pods-PJHTestKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PJHTestKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PJHTestKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +65,8 @@
 		90385A904ACC523D863500D9 /* Pods-PJHTestKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJHTestKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PJHTestKit_Example/Pods-PJHTestKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B34574E6666E6B46B06A16DA /* Pods-PJHTestKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJHTestKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PJHTestKit_Tests/Pods-PJHTestKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA8BEFFE43305F62E62E9178 /* Pods_PJHTestKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PJHTestKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E07157DFB7E844A3A57E644E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EE6DC0F02725B0D5EFBEBCED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E07157DFB7E844A3A57E644E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EE6DC0F02725B0D5EFBEBCED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -299,15 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-PJHTestKit_Example-checkManifestLockResult.txt",
 			);
@@ -321,15 +317,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-PJHTestKit_Tests-checkManifestLockResult.txt",
 			);
@@ -343,15 +335,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PJHTestKit_Example/Pods-PJHTestKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PJHTestKit/PJHTestKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PJHTestKit.framework",
 			);

@@ -1,0 +1,22 @@
+{
+  "name": "PJHTestKit",
+  "version": "0.1.0",
+  "summary": "A short description of PJHTestKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/huahuazidingyi/PJHTestKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "huahuazidingyi": "292515301@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/huahuazidingyi/PJHTestKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PJHTestKit/**/*"
+}

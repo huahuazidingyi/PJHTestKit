@@ -1,0 +1,6 @@
+framework module PJHTestKit {
+  umbrella header "PJHTestKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

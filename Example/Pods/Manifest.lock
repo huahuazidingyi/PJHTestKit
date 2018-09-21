@@ -1,0 +1,16 @@
+PODS:
+  - PJHTestKit (0.1.0)
+
+DEPENDENCIES:
+  - PJHTestKit (from `../`)
+
+EXTERNAL SOURCES:
+  PJHTestKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PJHTestKit: 504803ed5b9ff3e00a8150acdfbca0e21e831e7f
+
+PODFILE CHECKSUM: fe4554e3a7592bd470976e15282b8f961a37f2b5
+
+COCOAPODS: 1.5.3
